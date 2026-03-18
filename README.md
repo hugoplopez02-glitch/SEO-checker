@@ -1,15 +1,23 @@
 How to use it?
+
+First install puppeteer-extra, puppeteer-extra-plugin-stealth
+
 Prepare your phrases:
 
 In the root folder, you must have a file named 
 
 frases.xlsx
-.
+
 Open it and place all the phrases you want to research in the first column (Column A).
+
+Example: "blue sky"
+
 Run the Robot: Open a terminal in the project folder and run the following command:
 
 bash
+
 node seo_checker.mjs
+
 The Process:
 
 A visible Chrome browser will open.
